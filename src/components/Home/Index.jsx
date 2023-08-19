@@ -1,11 +1,9 @@
-'use client'
+"use client";
 
 export function Home() {
- 
-    return (
+  return (
     <>
-    <h1>
-    </h1>
+      <h1></h1>
     </>
-)
+  );
 }

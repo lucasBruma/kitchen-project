@@ -1,0 +1,26 @@
+# dependencies
+/node_modules
+
+.cache
+.eslintcache
+.next
+.husky
+
+# production
+/build
+/dist
+/public
+/out
+
+# misc
+.env.local
+.env.development.local
+
+
+*.json
+npm-debug.log*
+
+
+# typescript
+*.tsbuildinfo
+
