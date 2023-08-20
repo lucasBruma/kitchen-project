@@ -1,4 +1,3 @@
-import { useTheme } from "@emotion/react";
 import { useMediaQuery } from "@mui/material";
 
 export const OnlyXs = ({ children }) => {
