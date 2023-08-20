@@ -7,10 +7,15 @@ import { useWindowScroll } from "react-use";
 
 import Link from "next/link";
 import { useEffect, useState, useRef } from "react";
-import { linksNav } from "../constants/constants";
+import { linksNav } from "../../constants/constants";
 import { BsFillTelephoneInboundFill } from "react-icons/bs";
+<<<<<<< HEAD:src/components/Header.jsx
 import { DownMd, MdAndUp } from "./BreakpointComponents"
 import { HamburgerMenuButton } from "./HamburgerMenuButton";
+=======
+import { DownMd, MdAndUp } from "../BreakpointsComponents";
+import { HamburgerMenuButton } from "../HamburgerMenuButton";
+>>>>>>> ecda91bf78d5aedaa56d43b6a4034504157af733:src/components/Header/index.jsx
 
 export function Header() {
   const [isMobileMenuOpen, toggleIsMobileMenuOpen] = useState(false);
@@ -33,7 +38,7 @@ export function Header() {
   };
 
   return (
-    <header className="text-secondary fixed z-50 flex w-full flex-col items-center justify-center">
+    <header className="fixed z-50 flex w-full flex-col items-center justify-center text-secondary">
       <div className="flex w-full items-center justify-center gap-6 bg-primary-light py-2">
         <Link href="tel:703-962-7510" className="flex items-center gap-3">
           <BsFillTelephoneInboundFill className="text-base text-white" />

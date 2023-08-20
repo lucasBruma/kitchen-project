@@ -1,9 +1,12 @@
-import React from 'react'
+import { Hero } from "@/components/Hero";
 
-function page() {
+export default function Page() {
   return (
-    <div>page</div>
-  )
+    <main>
+      <Hero title="Contact" />
+      <div>
+        <h1>Contacto</h1>
+      </div>
+    </main>
+  );
 }
-
-export default page
