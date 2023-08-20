@@ -1,3 +1,5 @@
+Acordate de hacer NPM INSTALL despues de hacer pull, es decir, despues de traer mis cambios (para instalar dependencias que yo haya instalado).
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
