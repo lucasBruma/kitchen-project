@@ -20,34 +20,22 @@ export const links = [
 export const linksNav = [
   {
     label: "Home",
-    route: "/",
+    href: "/",
   },
   {
     label: "Contact",
-    route: "/",
+    href: "/",
   },
   {
     label: "Services",
-    route: "/",
-  },
-  {
-    label: "Explore financing",
-    route: "/",
-  },
-  {
-    label: "Blog",
-    route: "/",
+    href: "/",
   },
   {
     label: "Products",
-    route: "/",
-  },
-  {
-    label: "Wholesalers",
-    route: "/",
+    href: "/",
   },
   {
     label: "Portfolio",
-    route: "/",
+    href: "/",
   },
 ];
