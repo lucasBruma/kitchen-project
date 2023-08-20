@@ -9,7 +9,7 @@ import Link from "next/link";
 import { useEffect, useState, useRef } from "react";
 import { linksNav } from "../constants/constants";
 import { BsFillTelephoneInboundFill } from "react-icons/bs";
-import { DownMd, MdAndUp } from "./BreakpointComponents";
+import { DownMd, MdAndUp } from "./BreakpointComponents"
 import { HamburgerMenuButton } from "./HamburgerMenuButton";
 
 export function Header() {
