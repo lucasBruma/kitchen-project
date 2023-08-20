@@ -24,14 +24,10 @@ export const linksNav = [
   },
   {
     label: "Contact",
-    href: "/",
+    href: "/contact",
   },
   {
     label: "Services",
-    href: "/",
-  },
-  {
-    label: "Products",
     href: "/",
   },
   {

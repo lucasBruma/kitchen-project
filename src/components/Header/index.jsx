@@ -53,12 +53,13 @@ export function Header() {
             <div className="text-4xl">LOGO</div>
             <ul className="list-style-none flex items-center gap-8">
               {linksNav.map((link, index) => (
-                <li
+                <Link
                   key={index}
+                  href={link.href}
                   className="ease-in-ou relative cursor-pointer px-3 py-2 duration-300 hover:text-red-main"
                 >
-                  <button>{link.label}</button>
-                </li>
+                  {link.label}
+                </Link>
               ))}
             </ul>
           </div>

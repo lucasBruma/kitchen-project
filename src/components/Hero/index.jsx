@@ -5,13 +5,13 @@ export const Hero = ({ title, subtitle }) => {
   const backgroundImageUrl = "url(kitchen.png)";
   const backgroundStyle = {
     backgroundImage: `${backgroundImageUrl}`,
-    backgroundPosition: "center", // Adjust the background image position
-    backgroundSize: "cover", // Adjust how the background image covers the container
+    backgroundPosition: "center",
+    backgroundSize: "cover",
   };
 
   return (
     <div
-      className="justify-cente relative flex w-full select-none flex-col items-center pb-16 pt-48 text-center text-white"
+      className="relative flex w-full select-none flex-col items-center justify-center pb-16 pt-36 text-center text-white xl:pt-48"
       style={backgroundStyle}
     >
       <div className="absolute inset-0 bg-primary-main opacity-80"></div>
