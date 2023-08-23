@@ -6,6 +6,7 @@ import { HiLocationMarker } from "react-icons/hi";
 import { FaInstagram, FaTwitter, FaYoutube, FaPinterest, FaGithub } from "react-icons/fa";
 import { AiFillClockCircle } from "react-icons/ai";
 import { Divider } from "@mui/material";
+import Link from "next/link";
 
 export default function Page() {
   return (
@@ -22,17 +23,31 @@ export default function Page() {
             <div className="my-12 flex flex-col gap-5">
               <div className="group flex w-full cursor-pointer items-center gap-5 rounded-lg hover:border-black md:w-1/2">
                 <BsTelephoneFill className="text-xl text-gray-500  group-hover:text-black" />
-                <p className="text-base font-semibold text-gray-500 group-hover:text-black">(703) 962-7510</p>
+                <Link href="tel:703-962-7510">
+                  <p className="text-base font-semibold text-gray-500 group-hover:text-black">(703) 962-7510</p>
+                </Link>
               </div>
               <div className="group flex w-full cursor-pointer items-center gap-5 rounded-lg hover:border-black md:w-1/2">
                 <GrMail className="text-xl text-gray-500 group-hover:text-black" />
-                <p className="text-base font-semibold text-gray-500 group-hover:text-black">info@explorekitchens.com</p>
+                <Link
+                  href="mailto:info@explorekitchens.com"
+                  className="text-base font-semibold text-gray-500 group-hover:text-black"
+                  target="_blank"
+                >
+                  <p className="text-base font-semibold text-gray-500 group-hover:text-black">
+                    info@explorekitchens.com
+                  </p>
+                </Link>
               </div>
               <div className="group flex w-full cursor-pointer items-center gap-5 rounded-lg hover:border-black md:w-1/2">
                 <HiLocationMarker className="text-3xl text-gray-500  group-hover:text-black" />
-                <p className="text-base font-semibold text-gray-500 group-hover:text-black">
-                  1660 International Dr Suite 600 McLean, VA 22102
-                </p>
+                <Link
+                  href="https://www.google.com/maps/place/1660+International+Dr+Suite+600,+McLean,+VA+22102,+EE.+UU./@38.9249552,-77.230636,17z/data=!4m6!3m5!1s0x89b64af25daaaaab:0x887f0f5bfa97ef7f!8m2!3d38.9249552!4d-77.230636!16s%2Fg%2F11nyp630h3?entry=ttu"
+                  className="text-base font-semibold text-gray-500 group-hover:text-black"
+                  target="_blank"
+                >
+                  <p>1660 International Dr Suite 600 McLean, VA 22102</p>
+                </Link>
               </div>
               <div className="flex w-full cursor-pointer flex-col items-start gap-5 rounded-lg text-gray-500">
                 <div className="flex items-center gap-5 hover:text-black">
