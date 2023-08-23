@@ -7,12 +7,13 @@ import { FaInstagram, FaTwitter, FaYoutube, FaPinterest, FaGithub } from "react-
 import { AiFillClockCircle } from "react-icons/ai";
 import { Divider } from "@mui/material";
 import Link from "next/link";
+import { SectionTransparent } from "@/components/SectionTransparent";
 
 export default function Page() {
   return (
     <main>
       <Hero title="Contact" />
-      <div className="h-auto w-screen pt-12 text-primary-main md:h-screen">
+      <div className="h-auto w-screen py-12 text-primary-main">
         <div className="flex flex-col items-center justify-between md:flex-row xl:px-80">
           <div className="my-10 w-full flex-col px-10 md:my-0 md:w-1/2 md:px-0 md:py-10">
             <h1 className="text-5xl font-semibold">Get In Touch</h1>
@@ -138,6 +139,7 @@ export default function Page() {
           </div>
         </div>
       </div>
+      <SectionTransparent title="Our consultant will look at what you want to have done and need to have done, and if we can provide that service, we will give you an accurate written proposal on what your investment would be, and if we can’t provide the service you need, we may be able to provide you the names of others who can." />
     </main>
   );
 }
