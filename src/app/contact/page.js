@@ -34,32 +34,26 @@ export default function Page() {
                   1660 International Dr Suite 600 McLean, VA 22102
                 </p>
               </div>
-              <div className="group flex w-full cursor-pointer flex-col items-start gap-5 rounded-lg hover:border-black">
-                <div className="flex items-center gap-5">
-                  <AiFillClockCircle className="text-xl text-gray-500  group-hover:text-black" />
-                  <p className="text-base font-semibold text-gray-500 group-hover:text-black">Business hours</p>
+              <div className="flex w-full cursor-pointer flex-col items-start gap-5 rounded-lg text-gray-500">
+                <div className="flex items-center gap-5 hover:text-black">
+                  <AiFillClockCircle className="text-xl" />
+                  <p className="text-base font-semibold">Business hours</p>
                 </div>
                 <div className="flex flex-col gap-5">
                   <Divider />
-                  <div className="flex items-center justify-between gap-5">
-                    <p className="text-base font-semibold text-gray-500 group-hover:text-black">Monday - Friday:</p>
-                    <p className="text-base font-semibold text-gray-500 group-hover:text-black">
-                      {" "}
-                      8:30am – 5:30pm (By Appointment Only)
-                    </p>
+                  <div className="flex items-center justify-between gap-5 hover:text-black">
+                    <p className="text-base font-semibold">Monday - Friday:</p>
+                    <p className="text-base font-semibold"> 8:30am – 5:30pm (By Appointment Only)</p>
                   </div>
                   <Divider />
-                  <div className="flex items-center justify-between gap-5">
-                    <p className="text-base font-semibold text-gray-500 group-hover:text-black">Saturday:</p>
-                    <p className="text-base font-semibold text-gray-500 group-hover:text-black">
-                      {" "}
-                      9:00am – 4:00pm (By Appointment Only)
-                    </p>
+                  <div className="flex items-center justify-between gap-5 hover:text-black">
+                    <p className="text-base font-semibold">Saturday:</p>
+                    <p className="text-base font-semibold"> 9:00am – 4:00pm (By Appointment Only)</p>
                   </div>
                   <Divider />
-                  <div className="flex items-center justify-between gap-5">
-                    <p className="text-base font-semibold text-gray-500 group-hover:text-black">Sunday:</p>
-                    <p className="text-base font-semibold text-gray-500 group-hover:text-black">Closed</p>
+                  <div className="flex items-center justify-between gap-5 hover:text-black">
+                    <p className="text-base font-semibold">Sunday:</p>
+                    <p className="text-base font-semibold">Closed</p>
                   </div>
                   <Divider />
                 </div>
