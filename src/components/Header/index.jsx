@@ -11,6 +11,7 @@ import { linksNav } from "../../constants/constants";
 import { BsFillTelephoneInboundFill } from "react-icons/bs";
 import { DownMd, MdAndUp } from "../BreakpointsComponents";
 import { HamburgerMenuButton } from "../HamburgerMenuButton";
+import Image from "next/image";
 
 export function Header() {
   const [isMobileMenuOpen, toggleIsMobileMenuOpen] = useState(false);
@@ -33,7 +34,7 @@ export function Header() {
   };
 
   return (
-    <header className="fixed z-50 flex w-full flex-col items-center justify-center text-secondary">
+    <header className="text-secondary fixed z-50 flex w-full flex-col items-center justify-center">
       <div className="flex w-full items-center justify-center gap-6 bg-primary-light py-2">
         <Link href="tel:703-962-7510" className="flex items-center gap-3">
           <BsFillTelephoneInboundFill className="text-base text-white" />
@@ -50,7 +51,9 @@ export function Header() {
               `flex w-full items-center justify-between gap-6 py-6 duration-300 ease-in-out sm:px-32 xl:px-80`,
             )}
           >
-            <div className="text-4xl">LOGO</div>
+            <Link href="/">
+              <Image src="/logoExploreKitchens.png" alt="logo" width={200} height={200} className="cursor-pointer" />
+            </Link>
             <ul className="list-style-none flex items-center gap-8">
               {linksNav.map((link, index) => (
                 <Link
