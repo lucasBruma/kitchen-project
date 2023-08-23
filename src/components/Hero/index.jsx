@@ -1,7 +1,7 @@
 import { Typography } from "@mui/material";
 import React from "react";
 
-export const Hero = ({ title, subtitle }) => {
+export const Hero = ({ title }) => {
   const backgroundImageUrl = "url(kitchen.png)";
   const backgroundStyle = {
     backgroundImage: `${backgroundImageUrl}`,
@@ -15,14 +15,9 @@ export const Hero = ({ title, subtitle }) => {
       style={backgroundStyle}
     >
       <div className="absolute inset-0 bg-primary-main opacity-80"></div>
-      <Typography component="h1" variant="h2" className="relative z-10">
+      <Typography sx={{ fontFamily: "inherit" }} component="h1" variant="h2" className="relative z-10 !font-semibold">
         {title}
       </Typography>
-      {subtitle && (
-        <Typography variant="h5" component="h2" className="relative z-10 !mt-3">
-          {subtitle}
-        </Typography>
-      )}
     </div>
   );
 };

@@ -2,9 +2,13 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Montserrat } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+export const montserrat = Montserrat({
+  style: ["normal", "italic"],
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+});
 
 export const metadata = {
   title: "Kitchen",
@@ -14,7 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={montserrat.className}>
         <Header />
         <main className="h-[2000px]">{children}</main>
         <Footer />
