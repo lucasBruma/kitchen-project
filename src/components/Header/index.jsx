@@ -48,7 +48,7 @@ export function Header() {
               {
                 "bg-black/90": isBackgroundFilled,
               },
-              `flex w-full items-center justify-between gap-6 py-6 duration-300 ease-in-out sm:px-32 xl:px-80`,
+              `flex w-full items-center justify-between gap-6 py-6 duration-300 ease-in-out sm:px-32 xl:px-56`,
             )}
           >
             <Link href="/">

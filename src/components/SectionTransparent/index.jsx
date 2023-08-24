@@ -11,7 +11,7 @@ export const SectionTransparent = ({ title }) => {
 
   return (
     <div
-      className="relative flex w-full select-none flex-col items-center justify-center px-32 py-24 text-center text-white md:px-80"
+      className="relative flex w-full select-none flex-col items-center justify-center px-32 py-24 text-center text-white md:px-56"
       style={backgroundStyle}
     >
       <div className="absolute inset-0 bg-primary-main opacity-80"></div>

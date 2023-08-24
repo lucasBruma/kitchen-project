@@ -1,3 +1,9 @@
+import HomeHero from "@/components/HomeHero";
+
 export default function Page() {
-  return <main className="h-[2000px]"></main>;
+  return (
+    <main>
+      <HomeHero />
+    </main>
+  );
 }
