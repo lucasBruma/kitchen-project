@@ -14,8 +14,8 @@ export default function Page() {
     <main>
       <Hero title="Contact" />
       <div className="h-auto w-screen py-12 text-primary-main">
-        <div className="flex flex-col items-center justify-between md:flex-row xl:px-80">
-          <div className="my-10 w-full flex-col px-10 md:my-0 md:w-1/2 md:px-0 md:py-10">
+        <div className="flex flex-col items-center justify-between gap-6 md:flex-row xl:px-80">
+          <div className="my-10 w-full flex-col px-10 md:my-0 md:w-1/2 md:px-0 md:py-16">
             <h1 className="text-5xl font-semibold">Get In Touch</h1>
             <p className="my-5 text-base font-semibold">
               Fill up the form & our Team will get back to you within 12 hours.

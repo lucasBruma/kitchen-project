@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={montserrat.className}>
         <Header />
-        <main className="h-[2000px]">{children}</main>
+        <main>{children}</main>
         <Footer />
       </body>
     </html>
