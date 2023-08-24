@@ -79,7 +79,13 @@ export function Header() {
             <DownMd>
               <div className="flex items-center justify-center">
                 <Link href="/">
-                  <div className="text-4xl">LOGO</div>
+                  <Image
+                    src="/logoExploreKitchens.png"
+                    alt="logo"
+                    width={200}
+                    height={200}
+                    className="cursor-pointer"
+                  />
                 </Link>
               </div>
             </DownMd>
