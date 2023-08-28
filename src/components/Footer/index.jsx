@@ -13,7 +13,7 @@ export function Footer() {
         <div className="p-5 ">
           <ul>
             <p className="pb-6 text-3xl font-bold text-gray-800">
-              Explore<span className="text-red-800">Kitchens</span>
+              Explore<span className="text-red-main">Kitchens</span>
             </p>
             <div className="flex gap-6 pb-5">
               <Link href="https://www.instagram.com/explorekitchens/">
@@ -34,7 +34,7 @@ export function Footer() {
         </div>
         <div className="p-5">
           <ul>
-            <p className="pb-4 text-2xl font-bold text-red-800">Services</p>
+            <p className="pb-4 text-2xl font-bold text-black">Services</p>
             <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">
               Home Remodeling
             </li>
@@ -54,12 +54,10 @@ export function Footer() {
         </div>
         <div className="p-5">
           <ul>
-            <p className="pb-4 text-2xl font-bold text-red-800">Wholesalers</p>
+            <p className="pb-4 text-2xl font-bold text-black">Wholesalers</p>
             <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">Lightingi</li>
             <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">Plumbing</li>
-            <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">
-              Shower Doors
-            </li>
+            <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">Shower Doors</li>
             <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">Tubs</li>
             <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">Vainities</li>
             <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">
@@ -75,7 +73,7 @@ export function Footer() {
         </div>
         <div className="p-5">
           <ul>
-            <p className="pb-4 text-2xl font-bold text-red-800">Support</p>
+            <p className="pb-4 text-2xl font-bold text-black">Support</p>
             <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">Contact</li>
             <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">
               Support Portals
@@ -91,10 +89,7 @@ export function Footer() {
         </div>
       </div>
       <div className="flex flex-col items-center justify-center bg-gray-50  p-5 text-center">
-        <h1 className="font-semibold text-red-800">
-          © 2020-2023 All rights reserved | Build with ❤ by{" "}
-          <span className="cursor-pointer font-semibold hover:text-blue-600"> us Company </span>
-        </h1>
+        <h1 className="font-semibold text-red-800">© 2023 All rights reserved</h1>
       </div>
     </footer>
   );
