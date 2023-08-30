@@ -11,8 +11,8 @@ export const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "Kitchen",
-  description: "Kitchen project",
+  title: "ExploreKitchen",
+  description: "Kitchen Remodeling Northern Virginia",
 };
 
 export default function RootLayout({ children }) {

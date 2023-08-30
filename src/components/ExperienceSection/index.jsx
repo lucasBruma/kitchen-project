@@ -1,4 +1,5 @@
 import { Typography } from "@mui/material";
+import Link from "next/link";
 
 export default function ExperienceSection() {
   return (
@@ -148,6 +149,11 @@ export default function ExperienceSection() {
                 Manager will walk you through the job, ensuring you are satisfied with everything and handling any
                 questions, concerns, or feedback you have.
               </p>
+              <Link href="/contact">
+                <button className="relative z-20 mt-6 w-fit rounded-xl bg-red-main px-5 py-3 font-medium text-white shadow-md shadow-black duration-200 ease-in hover:bg-primary-main">
+                  CONTACT US
+                </button>
+              </Link>
             </div>
 
             {/* 6th item */}
