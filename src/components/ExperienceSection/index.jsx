@@ -1,9 +1,15 @@
+"use client";
 import { Typography } from "@mui/material";
 import Link from "next/link";
+import styled from "@emotion/styled";
+
+const Container = styled.div`
+  background: linear-gradient(90deg, rgba(56, 55, 65, 0.3) 0%, rgba(250, 250, 250, 0) 100%);
+`;
 
 export default function ExperienceSection() {
   return (
-    <section>
+    <Container>
       <div className="w-full px-6 text-primary-main md:px-32 xl:px-56" sx={{ fontFamily: "inherit" }}>
         <div className="py-12 md:py-24">
           {/* Section header */}
@@ -155,32 +161,9 @@ export default function ExperienceSection() {
                 </button>
               </Link>
             </div>
-
-            {/* 6th item */}
-            {/* <div className="relative flex flex-col items-start">
-              <svg className="mb-4 h-16 w-16" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <circle className="fill-current text-red-main" cx="32" cy="32" r="32" />
-                <text
-                  x="50%"
-                  y="51%"
-                  text-anchor="middle"
-                  stroke="white"
-                  stroke-width="3px"
-                  dy=".3em"
-                  font-size="1.5em"
-                >
-                  6
-                </text>
-              </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-start text-lg text-gray-400">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat.
-              </p>
-            </div> */}
           </div>
         </div>
       </div>
-    </section>
+    </Container>
   );
 }
