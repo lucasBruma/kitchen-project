@@ -5,7 +5,7 @@ import Link from "next/link";
 import styled from "@emotion/styled";
 
 const Container = styled.div`
-  background: linear-gradient(90deg, rgb(185, 44, 46, 0.8) 0%, rgb(0, 0, 0, 0.9) 100%);
+  background: linear-gradient(90deg, rgb(0, 0, 0, 0.8) 0%, rgb(185, 44, 46, 0.9) 100%);
 `;
 
 export default function PaymentHome() {
