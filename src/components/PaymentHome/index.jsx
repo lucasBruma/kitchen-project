@@ -11,7 +11,7 @@ const Container = styled.div`
 export default function PaymentHome() {
   return (
     <Container>
-      <div className="flex w-full justify-evenly gap-8 py-12 text-white md:px-32 md:py-24 xl:px-56">
+      <div className="flex w-full justify-between gap-8 py-12 text-white md:px-32 md:py-24 xl:px-[300px]">
         <div className="flex w-[50%] max-w-[550px] flex-col gap-2">
           <div className="flex flex-col gap-2">
             <h2 className="text-[3rem]">Easy Payment Plan</h2>
