@@ -1,5 +1,4 @@
 import { Typography } from "@mui/material";
-import Image from "next/image";
 import Link from "next/link";
 import { SiCodereview } from "react-icons/si";
 import { AiOutlineCheck } from "react-icons/ai";
@@ -23,7 +22,7 @@ export default function RemodelingHome() {
               <SiCodereview className="text-[4rem]" />
             </div>
             <Typography variant="h6" className="max-w-[320px] text-center">
-              Review offers, and select the one that's right for your kitchen remodel
+              Review offers, and select the one that&apos;s right for your kitchen remodel
             </Typography>
           </div>
           <div className="flex flex-col items-center gap-4">
