@@ -4,6 +4,7 @@ import { SectionTransparent } from "@/components/SectionTransparent";
 import PaymentHome from "@/components/PaymentHome";
 import RemodelingHome from "@/components/RemodelingHome";
 import TestimonialsHome from "@/components/TestimonialsHome";
+import VisualizerHome from "@/components/VisualizerHome";
 
 export default function Page() {
   return (
@@ -13,7 +14,10 @@ export default function Page() {
       <SectionTransparent title="Our consultant will look at what you want to have done and need to have done, and if we can provide that service, we will give you an accurate written proposal on what your investment would be, and if we can’t provide the service you need, we may be able to provide you the names of others who can." />
       <RemodelingHome />
       <PaymentHome />
-      <TestimonialsHome/>
+      <div style={{ background: "linear-gradient(90deg, rgba(56, 55, 65, 0.3) -60%, rgba(250, 250, 250, 0) 100%)" }}>
+        <TestimonialsHome />
+        <VisualizerHome />
+      </div>
     </main>
   );
 }
