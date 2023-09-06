@@ -3,7 +3,7 @@ import { Typography } from "@mui/material";
 import styled from "@emotion/styled";
 
 const Container = styled.div`
-  background: linear-gradient(90deg, rgba(56, 55, 65, 0.3) 0%, rgba(250, 250, 250, 0) 100%);
+  background: linear-gradient(90deg, rgba(56, 55, 65, 0.3) -60%, rgba(250, 250, 250, 0) 100%);
 `;
 
 export default function TestimonialsHome() {
