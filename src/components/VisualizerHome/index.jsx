@@ -26,6 +26,7 @@ export default function VisualizerHome() {
             <Link
               href="https://clickandtile.exploregraniteandquartz.digitaltilecatalog.com/en/rooms"
               className="relative z-20 w-fit rounded-xl bg-red-main px-5 py-3 font-medium text-white shadow-md shadow-black duration-200 ease-in hover:bg-primary-main"
+              target="blank"
             >
               LAUNCH THE VISUALIZER
             </Link>

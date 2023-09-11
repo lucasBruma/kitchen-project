@@ -5,6 +5,7 @@ import PaymentHome from "@/components/PaymentHome";
 import RemodelingHome from "@/components/RemodelingHome";
 import TestimonialsHome from "@/components/TestimonialsHome";
 import VisualizerHome from "@/components/VisualizerHome";
+import { ContactHome } from "@/components/ContactHome";
 
 export default function Page() {
   return (
@@ -18,6 +19,7 @@ export default function Page() {
         <TestimonialsHome />
         <VisualizerHome />
       </div>
+      <ContactHome />
     </main>
   );
 }
