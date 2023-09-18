@@ -1,6 +1,25 @@
+"use client";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
+
 export const Form = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm("service_3n3q662", "template_zj4rzjn", form.current, "-OucRu_7vgmbmb-2S").then(
+      (result) => {
+        console.log(result.text);
+      },
+      (error) => {
+        console.log(error.text);
+      },
+    );
+  };
+
   return (
-    <form>
+    <form ref={form} onSubmit={sendEmail}>
       <div className="grid xl:grid-cols-2 xl:gap-10">
         <input
           type="text"
@@ -22,7 +41,7 @@ export const Form = () => {
       </div>
       <input
         type="email"
-        name="email"
+        name="from_email"
         className="form-control m-0 mb-5 block h-[60px] w-full rounded-md border border-solid border-gray-300 bg-white bg-clip-padding px-3 py-2 text-base font-normal text-gray-700 transition ease-in-out focus:border-black focus:bg-white focus:text-gray-700 focus:outline-none"
         placeholder="Email "
         required={true}
@@ -42,6 +61,7 @@ export const Form = () => {
           rows="3"
           placeholder="Your message"
           required={true}
+          name="message"
         ></textarea>
       </div>
 
