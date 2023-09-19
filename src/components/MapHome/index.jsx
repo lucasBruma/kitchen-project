@@ -1,15 +1,13 @@
-"use client";
-
-
+ "use client";
 
 
 export default function MapHome() {
+  const position = [51.505, -0.09]; // Coordenadas de ejemplo
   return (
     <div className="w-full px-6 text-black md:px-32 xl:px-56" sx={{ fontFamily: "inherit" }}>
     <div className="py-12 md:py-24">
         <div class="flex">
             <div class="flex-1 w-64  ...">
-            MAPA
             </div>
             <div class="flex-1 w-32 ...">
             {/* Section header */}
