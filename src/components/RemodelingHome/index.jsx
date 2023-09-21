@@ -8,7 +8,7 @@ export default function RemodelingHome() {
     <section>
       <div className="flex w-full flex-col items-center justify-between gap-12 py-12 text-primary-main md:px-32 md:py-24 xl:px-56">
         <h2 className="text-[3rem]">EXPLORE KITCHEN REMODELING</h2>
-        <div className="flex gap-16">
+        <div className="flex w-full justify-between gap-16">
           <div className="flex flex-col items-center gap-4">
             <div className="flex h-[140px] w-[140px] items-center justify-center gap-0 rounded-[50%] shadow-xl">
               <Typography variant="h2">90</Typography>
