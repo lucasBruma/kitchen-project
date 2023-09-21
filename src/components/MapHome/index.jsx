@@ -1,7 +1,4 @@
-"use client";
-
 export default function MapHome() {
-  const position = [51.505, -0.09]; // Coordenadas de ejemplo
   return (
     <div className="w-full pr-6 text-black md:pr-32 xl:pr-56" sx={{ fontFamily: "inherit" }}>
       <div className="py-12 md:py-24">
