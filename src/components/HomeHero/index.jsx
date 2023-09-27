@@ -10,7 +10,11 @@ export default function HomeHero() {
           <Image src="/homeKitchen.jpg" width={1000} height={1000} alt="Kitchen" className="h-full w-full" />
         </div>
         <div className="relative z-30 flex w-full flex-col gap-4">
-          <Typography variant="h2" sx={{ fontFamily: "inherit" }} className="!text-[5rem] !font-bold !leading-[5rem]">
+          <Typography
+            variant="h2"
+            sx={{ fontFamily: "inherit" }}
+            className="!font-bold !leading-[5rem] sm:!text-[5rem]"
+          >
             Explore can make <span className="block italic text-secondary-light">your dream kitchen</span>
           </Typography>
           <Typography variant="h5" sx={{ fontFamily: "inherit" }} className="">

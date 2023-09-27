@@ -9,7 +9,7 @@ import { FaYoutube } from "react-icons/fa";
 export function Footer() {
   return (
     <footer>
-      <div className="flex h-1/2 w-full flex-col items-start justify-around bg-gray-50 p-20 md:flex-row">
+      <div className="flex h-1/2 w-full flex-col items-start justify-around bg-gray-50 p-6 sm:p-20 md:flex-row">
         <div className="p-5 ">
           <ul>
             <p className="pb-6 text-3xl font-bold text-gray-800">

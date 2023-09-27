@@ -11,9 +11,9 @@ const Container = styled.div`
 export default function PaymentHome() {
   return (
     <Container>
-      <div className="flex w-full justify-between gap-8 py-12 text-white md:px-32 md:py-24 xl:px-[300px]">
-        <div className="flex w-[50%] max-w-[550px] flex-col gap-2">
-          <div className="flex flex-col gap-2">
+      <div className="flex w-full flex-col items-center justify-between gap-8 py-12 text-white sm:flex-row sm:items-start md:px-32 md:py-24 xl:px-[300px]">
+        <div className="flex max-w-[550px] flex-col items-center gap-2 px-6 sm:w-[50%] sm:items-start sm:px-0">
+          <div className="flex flex-col gap-2 text-center sm:text-left">
             <h2 className="text-[3rem]">Easy Payment Plan</h2>
             <p>
               With our make-it-easy payment plans, you could have Explore Kitchens make your dream kitchen for just
