@@ -7,10 +7,8 @@ export default function VisualizerHome() {
       <div className="flex w-full flex-col items-center justify-between gap-12 py-12 text-center text-primary-main sm:text-start md:px-32 md:py-24 xl:px-56">
         <h2 className="text-[3rem]">KITCHEN VISUALIZER</h2>
         <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
-          <Image
+          <img
             src="/explore-kitchen-friends.jpg"
-            width={300}
-            height={300}
             alt="Explore kitchen friends"
             className="rounded-[50%] border-2 border-white object-cover shadow-xl sm:w-[40%]"
           />
