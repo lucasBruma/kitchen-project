@@ -17,7 +17,7 @@ export default function Home3D() {
           </div>
         </div>{" "}
         {/* className="relative flex h-[980px] flex-col items-start justify-center gap-8 px-6 text-white md:px-32 xl:px-56" */}
-        <div className="relative z-20 flex w-full flex-row flex-wrap justify-start gap-3 xl:justify-between">
+        <div className="relative z-20 flex w-full flex-wrap justify-start gap-3 lg:flex-row xl:flex-nowrap xl:justify-between">
           <div>
             <img src="/naturesi.png" alt="Houzz 2020" className="h-full w-full min-w-[250px] xl:w-[330px]" />
           </div>
