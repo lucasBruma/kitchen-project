@@ -7,11 +7,13 @@ import TestimonialsHome from "@/components/TestimonialsHome";
 import VisualizerHome from "@/components/VisualizerHome";
 import { ContactHome } from "@/components/ContactHome";
 import MapHome from "@/components/MapHome";
+import Home3D from "@/components/Home3D";
 
 export default function Page() {
   return (
     <main>
       <HomeHero />
+      <Home3D/>
       <ExperienceSection />
       <SectionTransparent title="Our consultant will look at what you want to have done and need to have done, and if we can provide that service, we will give you an accurate written proposal on what your investment would be, and if we can’t provide the service you need, we may be able to provide you the names of others who can." />
       <RemodelingHome />
