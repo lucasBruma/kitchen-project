@@ -11,7 +11,6 @@ import { linksNav } from "../../constants/constants";
 import { BsFillTelephoneInboundFill } from "react-icons/bs";
 import { DownMd, MdAndUp } from "../BreakpointsComponents";
 import { HamburgerMenuButton } from "../HamburgerMenuButton";
-import Image from "next/image";
 
 export function Header() {
   const [isMobileMenuOpen, toggleIsMobileMenuOpen] = useState(false);
