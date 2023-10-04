@@ -24,15 +24,7 @@ export default function ExperienceSection() {
               <div className="flex flex-row items-center gap-4">
                 <svg className="mb-4 h-16 w-16" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                   <circle className="fill-current text-red-main" cx="32" cy="32" r="32" />
-                  <text
-                    x="50%"
-                    y="51%"
-                    text-anchor="middle"
-                    stroke="white"
-                    stroke-width="3px"
-                    dy=".3em"
-                    font-size="1.5em"
-                  >
+                  <text x="50%" y="51%" textAnchor="middle" stroke="white" strokeWidth="3px" dy=".3em" fontSize="1.5em">
                     1
                   </text>
                 </svg>
@@ -54,15 +46,7 @@ export default function ExperienceSection() {
               <div className="flex flex-row items-center gap-4">
                 <svg className="mb-4 h-16 w-16" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                   <circle className="fill-current text-red-main" cx="32" cy="32" r="32" />
-                  <text
-                    x="50%"
-                    y="51%"
-                    text-anchor="middle"
-                    stroke="white"
-                    stroke-width="3px"
-                    dy=".3em"
-                    font-size="1.5em"
-                  >
+                  <text x="50%" y="51%" textAnchor="middle" stroke="white" strokeWidth="3px" dy=".3em" fontSize="1.5em">
                     2
                   </text>
                 </svg>
@@ -81,15 +65,7 @@ export default function ExperienceSection() {
               <div className="flex flex-row items-center gap-4">
                 <svg className="mb-4 h-16 w-16" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                   <circle className="fill-current text-red-main" cx="32" cy="32" r="32" />
-                  <text
-                    x="50%"
-                    y="51%"
-                    text-anchor="middle"
-                    stroke="white"
-                    stroke-width="3px"
-                    dy=".3em"
-                    font-size="1.5em"
-                  >
+                  <text x="50%" y="51%" textAnchor="middle" stroke="white" strokeWidth="3px" dy=".3em" fontSize="1.5em">
                     3
                   </text>
                 </svg>
@@ -109,15 +85,7 @@ export default function ExperienceSection() {
               <div className="flex flex-row items-center gap-4">
                 <svg className="mb-4 h-16 w-16" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                   <circle className="fill-current text-red-main" cx="32" cy="32" r="32" />
-                  <text
-                    x="50%"
-                    y="51%"
-                    text-anchor="middle"
-                    stroke="white"
-                    stroke-width="3px"
-                    dy=".3em"
-                    font-size="1.5em"
-                  >
+                  <text x="50%" y="51%" textAnchor="middle" stroke="white" strokeWidth="3px" dy=".3em" fontSize="1.5em">
                     4
                   </text>
                 </svg>
@@ -136,15 +104,7 @@ export default function ExperienceSection() {
               <div className="flex flex-row items-center gap-4">
                 <svg className="mb-4 h-16 w-16" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                   <circle className="fill-current text-red-main" cx="32" cy="32" r="32" />
-                  <text
-                    x="50%"
-                    y="51%"
-                    text-anchor="middle"
-                    stroke="white"
-                    stroke-width="3px"
-                    dy=".3em"
-                    font-size="1.5em"
-                  >
+                  <text x="50%" y="51%" textAnchor="middle" stroke="white" strokeWidth="3px" dy=".3em" fontSize="1.5em">
                     5
                   </text>
                 </svg>
