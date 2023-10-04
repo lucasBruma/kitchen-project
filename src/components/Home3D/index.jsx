@@ -9,7 +9,7 @@ export default function Home3D() {
         </div>
         <div className="relative z-30 flex w-full flex-col gap-4">
           <div className="relative z-20 w-fit rounded-xl bg-red-main px-10 py-6 font-medium shadow-md shadow-black duration-200 ease-in hover:bg-primary-main">
-            <h2 class="pb-3 text-center text-2xl">FREE 3D KITCHEN DESIGN</h2>
+            <h2 className="pb-3 text-center text-2xl">FREE 3D KITCHEN DESIGN</h2>
             <p>
               Kitchen Remodeling in McLean Virginia begins with a new design. Our Design Specialist will use the
               pictures and measurements you send us of your existing kitchen to create your Free 3D design.
