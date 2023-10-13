@@ -52,6 +52,99 @@ const images = [
     src: "/gallery/12.jpeg",
     alt: "Portfolio image",
   },
+  {
+    src: "/gallery/13.jpeg",
+    alt: "Portfolio image",
+  },
+  { src: "/gallery/14.jpeg", alt: "Portfolio image" },
+  {
+    src: "/gallery/15.jpeg",
+    alt: "Portfolio image",
+  },
+  {
+    src: "/gallery/16.jpeg",
+    alt: "Portfolio image",
+  },
+  {
+    src: "/gallery/17.jpeg",
+    alt: "Portfolio image",
+  },
+  {
+    src: "/gallery/18.jpeg",
+    alt: "Portfolio image",
+  },
+  {
+    src: "/gallery/19.jpeg",
+    alt: "Portfolio image",
+  },
+  {
+    src: "/gallery/20.jpeg",
+    alt: "Portfolio image",
+  },
+  {
+    src: "/gallery/21.jpeg",
+    alt: "Portfolio image",
+  },
+  {
+    src: "/gallery/22.jpeg",
+    alt: "Portfolio image",
+  },
+  {
+    src: "/gallery/23.jpeg",
+    alt: "Portfolio image",
+  },
+  {
+    src: "/gallery/24.jpeg",
+    alt: "Portfolio image",
+  },
+  {
+    src: "/gallery/25.jpeg",
+    alt: "Portfolio image",
+  },
+  {
+    src: "/gallery/26.jpeg",
+    alt: "Portfolio image",
+  },
+  {
+    src: "/gallery/27.jpeg",
+    alt: "Portfolio image",
+  },
+  {
+    src: "/gallery/28.jpeg",
+    alt: "Portfolio image",
+  },
+  {
+    src: "/gallery/29.jpeg",
+    alt: "Portfolio image",
+  },
+  {
+    src: "/gallery/30.jpeg",
+    alt: "Portfolio image",
+  },
+  {
+    src: "/gallery/31.jpeg",
+    alt: "Portfolio image",
+  },
+  {
+    src: "/gallery/32.jpeg",
+    alt: "Portfolio image",
+  },
+  {
+    src: "/gallery/33.jpeg",
+    alt: "Portfolio image",
+  },
+  {
+    src: "/gallery/34.jpeg",
+    alt: "Portfolio image",
+  },
+  {
+    src: "/gallery/35.jpeg",
+    alt: "Portfolio image",
+  },
+  {
+    src: "/gallery/36.jpeg",
+    alt: "Portfolio image",
+  },
 ];
 
 export default function Page() {
