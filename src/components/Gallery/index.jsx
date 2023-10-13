@@ -14,17 +14,21 @@ export function Gallery({ images = [] }) {
   const [currentImage, setCurrentImage] = useState(null);
 
   return (
-    <div className="grid w-full grid-cols-1 gap-4 px-6 py-12 md:grid-cols-2 md:px-32 lg:grid-cols-3 lg:gap-8 xl:px-56">
+    <div className="grid w-full grid-cols-1 grid-rows-1 gap-4 px-6 py-12 md:grid-cols-2 md:px-32 lg:grid-cols-3 lg:gap-8 xl:px-56">
       {images.map((image) => (
         <div key={image.src} className="h-full w-full">
           <Button
-            className="group relative cursor-pointer overflow-hidden rounded-md border-2 border-white p-0 duration-300 ease-in hover:shadow-lg hover:shadow-gray-400"
+            className="group relative w-full cursor-pointer overflow-hidden rounded-md border-2 border-white p-0 duration-300 ease-in hover:shadow-lg hover:shadow-gray-400"
             onClick={() => {
               setCurrentImage(image);
               setModalOpen(true);
             }}
           >
-            <img src={image.src} alt={image.alt} className="object-cover duration-300 ease-in group-hover:!scale-110" />
+            <img
+              src={image.src}
+              alt={image.alt}
+              className="w-full object-cover duration-300 ease-in group-hover:!scale-110 md:h-[270px]"
+            />
             <ImageShadow className="absolute inset-0 h-full w-full" />
           </Button>
           {isModalOpen && (

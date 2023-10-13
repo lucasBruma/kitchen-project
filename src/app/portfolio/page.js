@@ -5,40 +5,52 @@ import { Gallery } from "@/components/Gallery";
 
 const images = [
   {
-    src: "https://exploregranitecountertops.com/wp-content/uploads/2023/02/1-1024x683-1.jpg",
-    alt: "Granite Countertops",
+    src: "/gallery/1.jpeg",
+    alt: "Portfolio image",
   },
   {
-    src: "https://exploregranitecountertops.com/wp-content/uploads/2023/02/2-1024x683-1.jpg",
-    alt: "Granite Countertops",
+    src: "/gallery/2.jpeg",
+    alt: "Portfolio image",
   },
   {
-    src: "https://exploregranitecountertops.com/wp-content/uploads/2023/02/3-1024x683-1.jpeg",
-    alt: "Granite Countertops",
+    src: "/gallery/3.jpeg",
+    alt: "Portfolio image",
   },
   {
-    src: "https://exploregranitecountertops.com/wp-content/uploads/2023/02/1-1024x683-1.jpg",
-    alt: "Granite Countertops",
+    src: "/gallery/4.jpeg",
+    alt: "Portfolio image",
   },
   {
-    src: "https://exploregranitecountertops.com/wp-content/uploads/2023/02/2-1024x683-1.jpg",
-    alt: "Granite Countertops",
+    src: "/gallery/5.jpeg",
+    alt: "Portfolio image",
   },
   {
-    src: "https://exploregranitecountertops.com/wp-content/uploads/2023/02/3-1024x683-1.jpeg",
-    alt: "Granite Countertops",
+    src: "/gallery/6.jpeg",
+    alt: "Portfolio image",
   },
   {
-    src: "https://exploregranitecountertops.com/wp-content/uploads/2023/02/1-1024x683-1.jpg",
-    alt: "Granite Countertops",
+    src: "/gallery/7.jpeg",
+    alt: "Portfolio image",
   },
   {
-    src: "https://exploregranitecountertops.com/wp-content/uploads/2023/02/2-1024x683-1.jpg",
-    alt: "Granite Countertops",
+    src: "/gallery/8.jpeg",
+    alt: "Portfolio image",
   },
   {
-    src: "https://exploregranitecountertops.com/wp-content/uploads/2023/02/3-1024x683-1.jpeg",
-    alt: "Granite Countertops",
+    src: "/gallery/9.jpeg",
+    alt: "Portfolio image",
+  },
+  {
+    src: "/gallery/10.jpeg",
+    alt: "Portfolio image",
+  },
+  {
+    src: "/gallery/11.jpeg",
+    alt: "Portfolio image",
+  },
+  {
+    src: "/gallery/12.jpeg",
+    alt: "Portfolio image",
   },
 ];
 
