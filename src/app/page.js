@@ -4,7 +4,6 @@ import { SectionTransparent } from "@/components/SectionTransparent";
 import PaymentHome from "@/components/PaymentHome";
 import RemodelingHome from "@/components/RemodelingHome";
 import TestimonialsHome from "@/components/TestimonialsHome";
-import VisualizerHome from "@/components/VisualizerHome";
 import { ContactHome } from "@/components/ContactHome";
 import MapHome from "@/components/MapHome";
 import Home3D from "@/components/Home3D";
@@ -21,7 +20,6 @@ export default function Page() {
       <MapHome/>
       <div style={{ background: "linear-gradient(90deg, rgba(56, 55, 65, 0.3) -60%, rgba(250, 250, 250, 0) 100%)" }}>
         <TestimonialsHome />
-        <VisualizerHome />
       </div>
       <ContactHome />
     </main>
