@@ -46,7 +46,7 @@ export function Gallery({ images = [] }) {
         </div>
       ))}
       {isModalOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-8 sm:p-0">
           <div className="relative rounded-lg bg-white p-4 shadow-lg">
             <img src={images[currentImageIndex]?.src} alt="Current View" className="max-h-[700px]" />
             <button
