@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Home3D() {
   return (
     <main>
-      <div className="relative flex flex-col items-start justify-center gap-8 px-6 py-6 text-white sm:px-32 xl:px-56">
+      <div className="relative flex flex-col items-start justify-center gap-8 px-6 py-16 text-white sm:px-32 xl:px-56">
         <div className="absolute inset-0 z-20 h-full">
           <div className="absolute inset-0 z-30 h-full bg-black" />
         </div>
