@@ -43,33 +43,33 @@ export function Gallery({ images = [] }) {
             />
             <ImageShadow className="absolute inset-0 h-full w-full" />
           </Button>
-          {isModalOpen && (
-            <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-10">
-              <div className="relative rounded-lg bg-white p-4 shadow-lg">
-                <img src={images[currentImageIndex]?.src} alt="Current View" className="max-h-[700px]" />
-                <button
-                  className="absolute right-[-20px] top-[-20px] rounded-[50%] bg-red-500 p-2 text-white"
-                  onClick={() => setModalOpen(false)}
-                >
-                  <IoMdClose size={50} />
-                </button>
-                <button
-                  className="absolute left-[-35px] top-[50%] -translate-y-1/2 transform rounded-[50%] bg-black p-2 text-white"
-                  onClick={goToPreviousImage}
-                >
-                  <IoIosArrowBack size={50} />
-                </button>
-                <button
-                  className="absolute right-[-35px] top-[50%] -translate-y-1/2 transform rounded-[50%] bg-black p-2 text-white"
-                  onClick={goToNextImage}
-                >
-                  <IoIosArrowForward size={50} />
-                </button>
-              </div>
-            </div>
-          )}
         </div>
       ))}
+      {isModalOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
+          <div className="relative rounded-lg bg-white p-4 shadow-lg">
+            <img src={images[currentImageIndex]?.src} alt="Current View" className="max-h-[700px]" />
+            <button
+              className="absolute right-[-20px] top-[-20px] rounded-[50%] bg-red-500 p-2 text-white"
+              onClick={() => setModalOpen(false)}
+            >
+              <IoMdClose size={50} />
+            </button>
+            <button
+              className="absolute left-[-35px] top-[50%] -translate-y-1/2 transform rounded-[50%] bg-black p-2 text-white"
+              onClick={goToPreviousImage}
+            >
+              <IoIosArrowBack size={50} />
+            </button>
+            <button
+              className="absolute right-[-35px] top-[50%] -translate-y-1/2 transform rounded-[50%] bg-black p-2 text-white"
+              onClick={goToNextImage}
+            >
+              <IoIosArrowForward size={50} />
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
