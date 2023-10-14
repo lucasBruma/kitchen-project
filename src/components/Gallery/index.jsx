@@ -25,6 +25,12 @@ export function Gallery({ images = [] }) {
     }
   };
 
+  const closeIfClickedOutside = (event) => {
+    if (String(event.target.className).includes("modal-outer-container")) {
+      setModalOpen(false);
+    }
+  };
+
   return (
     <div className="grid w-full grid-cols-1 grid-rows-1 gap-4 px-6 py-12 md:grid-cols-2 md:px-32 lg:grid-cols-3 lg:gap-8 xl:px-56">
       {images.map((image, index) => (
@@ -46,7 +52,10 @@ export function Gallery({ images = [] }) {
         </div>
       ))}
       {isModalOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-8 sm:p-0">
+        <div
+          className="modal-outer-container fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-8 sm:p-0"
+          onClick={closeIfClickedOutside}
+        >
           <div className="relative rounded-lg bg-white p-4 shadow-lg">
             <img src={images[currentImageIndex]?.src} alt="Current View" className="max-h-[700px]" />
             <button
