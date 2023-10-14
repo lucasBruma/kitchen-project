@@ -3,6 +3,7 @@ import styled from "@emotion/styled";
 import { useState } from "react";
 import { Button } from "@mui/material";
 import { IoMdClose, IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
+import "lazysizes";
 
 const ImageShadow = styled.div`
   background: rgb(0, 0, 0);
@@ -43,9 +44,9 @@ export function Gallery({ images = [] }) {
             }}
           >
             <img
-              src={image.src}
+              data-src={image.src}
               alt={image.alt}
-              className="w-full object-cover duration-300 ease-in group-hover:!scale-110 md:h-[270px]"
+              className="lazyload w-full object-cover duration-300 ease-in group-hover:!scale-110 md:h-[270px]"
             />
             <ImageShadow className="absolute inset-0 h-full w-full" />
           </Button>
