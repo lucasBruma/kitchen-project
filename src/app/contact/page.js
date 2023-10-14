@@ -10,6 +10,11 @@ import Link from "next/link";
 import { SectionTransparent } from "@/components/SectionTransparent";
 import { Form } from "@/components/Form";
 
+export const metadata = {
+  title: "Contact - Explore Kitchens",
+  description: "Contact - Explore Kitchens - Kitchen Remodeling Northern Virginia",
+};
+
 export default function Page() {
   return (
     <main>

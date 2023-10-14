@@ -1,4 +1,3 @@
-"use client";
 import { Hero } from "@/components/Hero";
 import React from "react";
 import { Gallery } from "@/components/Gallery";
@@ -146,6 +145,11 @@ const images = [
     alt: "Portfolio image",
   },
 ];
+
+export const metadata = {
+  title: "Portfolio - Explore Kitchens",
+  description: "Portfolio - Explore Kitchens - Kitchen Remodeling Northern Virginia",
+};
 
 export default function Page() {
   return (
