@@ -51,7 +51,7 @@ export function Header() {
             )}
           >
             <Link href="/">
-              <img src="/logoExploreKitchens.webp" alt="logo" className="max-w-[200px] cursor-pointer" />
+              <img src="/logo-white-explore.png" alt="logo" className="max-w-[200px] cursor-pointer" />
             </Link>
             <ul className="list-style-none flex items-center gap-8">
               {linksNav.map((link, index) => (
@@ -78,7 +78,7 @@ export function Header() {
             <DownMd>
               <div className="flex items-center justify-center">
                 <Link href="/">
-                  <img src="/logoExploreKitchens.webp" alt="logo" className="max-w-[200px] cursor-pointer" />
+                  <img src="/logo-white-explore.png" alt="logo" className="max-w-[200px] cursor-pointer" />
                 </Link>
               </div>
             </DownMd>
