@@ -31,6 +31,10 @@ export const linksNav = [
     href: "/",
   },
   {
+    label: "Cabinet Refacing",
+    href: "/cabinetRefacing",
+  },
+  {
     label: "Portfolio",
     href: "/portfolio",
   },
