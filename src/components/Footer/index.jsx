@@ -31,6 +31,11 @@ export function Footer() {
         </ul>
         <ul>
           <p className="pb-4 text-2xl font-bold text-black">Services</p>
+          <Link href="/cabinetRefacing">
+          <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">
+            Cabinet Refacing
+          </li>
+          </Link>
           <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">
             Home Remodeling
           </li>
@@ -63,17 +68,9 @@ export function Footer() {
 
         <ul>
           <p className="pb-4 text-2xl font-bold text-black">Support</p>
+          <Link href="/contact">
           <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">Contact</li>
-          <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">
-            Support Portals
-          </li>
-          <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">
-            List Of Charges
-          </li>
-          <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">
-            Downloads & Resources
-          </li>
-          <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">Videos</li>
+        </Link>
         </ul>
       </div>
       <div className="flex flex-col items-center justify-center bg-gray-50  p-5 text-center">
