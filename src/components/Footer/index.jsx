@@ -36,41 +36,19 @@ export function Footer() {
             Cabinet Refacing
           </li>
           </Link>
-          <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">
-            Home Remodeling
-          </li>
-          <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">
-            Futures & Options
-          </li>
-          <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">Home Additions</li>
-          <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">
-            Teardown and Rebuild
-          </li>
-          <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">
-            Bathroom Remodeling
-          </li>
         </ul>
         <ul>
-          <p className="pb-4 text-2xl font-bold text-black">Wholesalers</p>
-          <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">Lightingi</li>
-          <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">Plumbing</li>
-          <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">Shower Doors</li>
-          <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">Tubs</li>
-          <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">Vainities</li>
-          <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">
-            Cabinet Hardware
-          </li>
-          <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">
-            Luxury Vinyl Tile
-          </li>
-          <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">Door Hardwware</li>
+          <p className="pb-4 text-2xl font-bold text-black">Galery</p>
+          <Link href="/portfolio">
+          <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">Portolofio</li>
+          </Link>
         </ul>
 
         <ul>
           <p className="pb-4 text-2xl font-bold text-black">Support</p>
           <Link href="/contact">
           <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">Contact</li>
-        </Link>
+          </Link>
         </ul>
       </div>
       <div className="flex flex-col items-center justify-center bg-gray-50  p-5 text-center">
