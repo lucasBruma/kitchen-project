@@ -29,7 +29,7 @@ export const Intro = () => {
           <span className="mt-3 block font-bold uppercase text-black lg:mt-6">explore cabinet refacing!</span>
         </Typography>
         <div className="flex flex-col items-center justify-around gap-8 lg:flex-row lg:gap-0">
-          <img src="/owner.jpeg" className="aspect-auto w-[350px]" alt="explore kitchens owner" />
+          <img src="/owner-explore.jpg" className="aspect-auto w-[350px]" alt="explore kitchens owner" />
           <div className="flex flex-col gap-8 text-lg lg:w-1/2">
             <div className="">
               {" "}
