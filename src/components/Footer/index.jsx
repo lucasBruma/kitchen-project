@@ -40,7 +40,7 @@ export function Footer() {
         <ul>
           <p className="pb-4 text-2xl font-bold text-black">Galery</p>
           <Link href="/portfolio">
-          <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">Portolofio</li>
+          <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">Portfolio</li>
           </Link>
         </ul>
 
