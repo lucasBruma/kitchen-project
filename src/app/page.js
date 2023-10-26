@@ -8,6 +8,7 @@ import { ContactHome } from "@/components/ContactHome";
 import MapHome from "@/components/MapHome";
 import Home3D from "@/components/Home3D";
 
+
 export const metadata = {
   title: "Explore Kitchens",
   description: "Kitchen Remodeling Northern Virginia",
