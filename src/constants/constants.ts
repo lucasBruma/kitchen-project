@@ -27,10 +27,6 @@ export const linksNav = [
     href: "/contact",
   },
   {
-    label: "Services",
-    href: "/",
-  },
-  {
     label: "Cabinet Refacing",
     href: "/cabinetRefacing",
   },
