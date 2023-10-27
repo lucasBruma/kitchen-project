@@ -67,7 +67,6 @@ export default function WhyUs() {
         During kitchen renovations, most people will consider either installing new kitchen cabinets or doing kitchen
         cabinet refacing. If you’re on the fence about which one you should choose, you should learn about the benefits of
         both. Here are the biggest benefits associated with cabinet refacing:{" "}
-        <div>
         <ul className="px-4 text-center text-black font-bold p-8 list-disc ">
           <li>Resurfacing kitchen cabinets will cost just a fraction of what replacing them will</li>
           <li>Cabinet refacing will make most kitchen cabinets look like they’re brand new</li>
@@ -78,7 +77,8 @@ export default function WhyUs() {
               building materials out of landfills and saves trees from being cut down.
           </li>
         </ul>
-        </div>
+        You will be pleasantly surprised when you see how much better your kitchen as a whole will look following the
+        cabinet refacing process. It’ll make you wonder why you ever even considered replacing your kitchen cabinets.
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1} className="px-4 text-center text-black lg:px-24">
         As we mentioned earlier, the cost of cabinet refacing is typically going to be a whole lot lower than cabinet
