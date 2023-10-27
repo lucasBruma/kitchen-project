@@ -4,7 +4,8 @@ import { Footer } from "@/components/Footer";
 import "./globals.css";
 import { Montserrat } from "next/font/google";
 import Head from "next/head";
-
+import { ThemeProvider } from "@mui/material";
+import { theme } from "@/styles/theme/app.theme";
 export const montserrat = Montserrat({
   style: ["normal", "italic"],
   subsets: ["latin"],
@@ -19,9 +20,11 @@ export default function RootLayout({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
       </Head>
       <body className={montserrat.className}>
-        <Header />
-        <main>{children}</main>
-        <Footer />
+        <ThemeProvider theme={theme}>
+          <Header />
+          <main>{children}</main>
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );

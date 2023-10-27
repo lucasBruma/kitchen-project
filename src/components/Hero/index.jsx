@@ -2,7 +2,7 @@ import { Typography } from "@mui/material";
 import React from "react";
 
 export const Hero = ({ title }) => {
-  const backgroundImageUrl = "url(kitchen.png)";
+  const backgroundImageUrl = "url(bg-kitchen.jpg)";
   const backgroundStyle = {
     backgroundImage: `${backgroundImageUrl}`,
     backgroundPosition: "center",

@@ -1,7 +1,6 @@
 import { Typography } from "@mui/material";
 import React from "react";
 import { Form } from "../Form";
-import Image from "next/image";
 
 export const ContactHome = () => {
   return (

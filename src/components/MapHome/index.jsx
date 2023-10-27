@@ -15,7 +15,7 @@ export default function MapHome() {
           <div className="sm:w-[30%]">
             {/* Section header */}
             <div className="pb-12 text-start md:pb-20">
-              <h2 className="mb-4 text-4xl font-bold">OUR LOCATION</h2>
+              <h2 className="mb-4 text-4xl font-bold text-red-main">OUR LOCATION</h2>
               <p className="text-lg">
                 Explore Kitchens for kitchen remodeling in all of Northern Virginia. We service dozens of cities in the
                 area, including Fairfax, Arlington, McLean, Vienna, Great Falls, Falls Church, and many more by

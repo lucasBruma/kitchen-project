@@ -8,7 +8,7 @@ export default function TestimonialsHome() {
       <div className="py-12 md:py-24">
         {/* Section header */}
         <div className="pb-12 text-start md:pb-20">
-          <h2 className="text-4xl font-bold">Testimonials From Actual Customers.</h2>
+          <h2 className="text-4xl font-bold text-red-main">Testimonials From Actual Customers.</h2>
         </div>
 
         {/* Items */}
