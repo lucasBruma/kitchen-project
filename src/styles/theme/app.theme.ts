@@ -1,6 +1,5 @@
 "use client";
 import { createTheme, responsiveFontSizes, Shadows } from "@mui/material/styles";
-import { TypographyOptions } from "@mui/material/styles/createTypography";
 import type { Theme } from "@mui/system";
 import { Red_Hat_Display } from "next/font/google";
 import { montserrat } from "@/app/layout";
