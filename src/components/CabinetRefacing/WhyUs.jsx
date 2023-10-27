@@ -91,6 +91,9 @@ export default function WhyUs() {
           <li>The new doors and drawer fronts you want to put on your kitchen cabinets</li>
           <li>The kitchen remodeling company you choose to work with</li>
         </ul>
+        The accesories you want to add such as rollout drawers, roll out trash cans, etc,etc
+        You should take each of these factors into account when you’re getting estimates on cabinet refacing vs cabinet
+        replacements It will help you nd the best possible price for resurfacing services.
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2} className="px-4 text-center text-black lg:px-24">
         Some people will attempt to take the DIY approach to cabinet refacing. More often than not, this is going to end
