@@ -4,13 +4,11 @@ import React from "react";
 import styled from "@emotion/styled";
 import { Intro } from "./Intro";
 import { Faqs } from "./Faqs";
-import { WhyUs } from "./WhyUs";
+import WhyUs from "./WhyUs";
 
 const Container = styled.div`
   background: linear-gradient(90deg, rgba(56, 55, 65, 0.3) -80%, rgba(250, 250, 250, 0) 100%);
 `;
-
-
 
 export const CabinetRefacing = () => {
   return (
@@ -18,7 +16,7 @@ export const CabinetRefacing = () => {
       <Hero title="Cabinet Refacing" />
       <Container>
         <Intro />
-        <WhyUs/>
+        <WhyUs />
         <Faqs />
       </Container>
     </main>
