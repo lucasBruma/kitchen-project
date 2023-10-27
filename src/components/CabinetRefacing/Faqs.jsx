@@ -77,7 +77,7 @@ export const Faqs = () => {
   };
 
   return (
-    <div className="flex h-auto w-full flex-col items-center gap-6 pb-16">
+    <div className="flex h-auto w-full flex-col items-center gap-6 px-8 pb-16">
       <Typography variant="h2" component="h2" className="mb-8 text-center !text-3xl font-bold text-black lg:!text-5xl">
         Cabinet Refacing FAQs
       </Typography>
@@ -94,12 +94,12 @@ export const Faqs = () => {
               expandIcon={<ExpandMoreIcon className="!h-12 !w-12 !text-black" />}
               className="!my-4 h-[40px] !pl-4 !pr-3 sm:!pl-8 sm:!pr-6"
             >
-              <Typography variant="h5" component="h5">
+              <Typography variant="h5" component="h5" className="!text-sm md:!text-lg">
                 {item.question}
               </Typography>
             </AccordionSummary>
             <AccordionDetails className="!pl-4 !pr-3 sm:!px-8 sm:!pb-6">
-              <Typography variant="h6" component="p" className="!text-gray-dark !font-medium">
+              <Typography variant="h6" component="p" className="!text-gray-dark !text-sm !font-medium md:!text-lg">
                 {item.answer}
               </Typography>
             </AccordionDetails>
