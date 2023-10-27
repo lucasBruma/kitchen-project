@@ -77,7 +77,7 @@ export const Faqs = () => {
   };
 
   return (
-    <div className="flex h-auto w-full flex-col items-center gap-6">
+    <div className="flex h-auto w-full flex-col items-center gap-6 pb-16">
       <Typography variant="h2" component="h2" className="mb-8 text-center !text-3xl font-bold text-black lg:!text-5xl">
         Cabinet Refacing FAQs
       </Typography>

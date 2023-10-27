@@ -23,18 +23,18 @@ const steps = [
 export const Intro = () => {
   return (
     <>
-      <div className="flex flex-col gap-14 pb-12 text-start md:pb-20">
+      <div className="flex flex-col gap-14 py-12 text-start md:py-20">
         <Typography variant="h2" component="h2" className="text-center !text-3xl text-black/40 lg:!text-5xl">
           Before you consider cabinet replacement,{" "}
           <span className="mt-3 block font-bold uppercase text-black lg:mt-6">explore cabinet refacing!</span>
         </Typography>
         <div className="flex flex-col items-center justify-around gap-8 lg:flex-row lg:gap-0">
-          <img src="/owner-explore.jpg" className="aspect-auto w-[350px]" alt="explore kitchens owner"/>
+          <img src="/owner-explore.jpg" className="aspect-auto w-[350px]" alt="explore kitchens owner" />
           <div className="flex flex-col gap-8 text-lg lg:w-1/2">
-            <div className="">
+            <div className="text-black">
               {" "}
-              When you replace kitchen cabinets, you’ll obviously remove cabinets from your kitchen’s walls, throw them
-              out, and put new ones in their place.{" "}
+              When you replace kitchen cabinets, you&apos;ll obviously remove cabinets from your kitchen&apos;s walls,
+              throw them out, and put new ones in their place.{" "}
               <span className="font-bold">But for cabinet refacing, you&apos;ll follow these steps:</span>
             </div>
             <div className="flex flex-col gap-6">

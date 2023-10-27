@@ -5,8 +5,7 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-// import { CustomTabPanel } from "./CustomTabPanel";
-import { montserrat } from "@/app/layout";
+import useCurrentBreakpoint from "@/hooks/useCurrentBreakpoint";
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -43,18 +42,25 @@ function a11yProps(index) {
 
 export default function WhyUs() {
   const [value, setValue] = React.useState(0);
+  const { mdAndUp } = useCurrentBreakpoint();
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
 
   return (
-    <Box sx={{ width: "100%", fontFamily: montserrat.style.fontFamily }} className="px-6 pb-32 pt-16 sm:px-32">
+    <Box sx={{ width: "100%" }} className="px-6 pb-32 pt-16 sm:px-32">
       <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
-        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" centered>
-          <Tab label="What Are the Benefits of Cabinet Refacing?" {...a11yProps(0)} />
-          <Tab label="How Much Does Cabinet Refacing Cost?" {...a11yProps(1)} />
-          <Tab label="Who Should You Trust to Perform Cabinet Refacing?" {...a11yProps(2)} />
+        <Tabs
+          value={value}
+          onChange={handleChange}
+          aria-label="basic tabs example"
+          centered
+          orientation={mdAndUp ? "horizontal" : "vertical"}
+        >
+          <Tab label="What Are the Benefits of Cabinet Refacing?" {...a11yProps(0)} className="!text-lg" />
+          <Tab label="How Much Does Cabinet Refacing Cost?" {...a11yProps(1)} className="!text-lg" />
+          <Tab label="Who Should You Trust to Perform Cabinet Refacing?" {...a11yProps(2)} className="!text-lg" />
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0} className="px-4 text-center text-black lg:px-24">
@@ -78,7 +84,3 @@ export default function WhyUs() {
     </Box>
   );
 }
-
-// export const WhyUs = () => {
-//   return <></>;
-// };
