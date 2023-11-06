@@ -20,9 +20,6 @@ export default function HomeHero() {
           <Typography variant="h5" sx={{ fontFamily: "inherit" }} className="">
             Kitchen Remodeling in McLean, VA
           </Typography>
-          <button className="relative z-20 w-fit rounded-xl bg-red-main px-5 py-3 font-medium shadow-md shadow-black duration-200 ease-in hover:bg-primary-main">
-            SCHEDULE YOUR VIRTUAL OR IN-HOME CONSULTATION
-          </button>
         </div>
         <div className="relative z-20 flex flex-row gap-3">
           <Image src="/houzz2020.jpeg" width={100} height={100} alt="Houzz 2020" />
