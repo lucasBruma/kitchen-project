@@ -23,15 +23,15 @@ export const linksNav = [
     href: "/",
   },
   {
-    label: "Contact",
-    href: "/contact",
-  },
-  {
     label: "Cabinet Refacing",
     href: "/cabinetRefacing",
   },
   {
     label: "Portfolio",
     href: "/portfolio",
+  },
+  {
+    label: "Contact",
+    href: "/contact",
   },
 ];
