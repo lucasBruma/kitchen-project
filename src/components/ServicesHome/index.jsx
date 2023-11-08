@@ -55,7 +55,7 @@ const Container = styled.div`
   }
 
   .swiper .swiper-pagination-bullet-active {
-    background-color: #6f6f6f;
+    background-color: gray !important;
   }
 `;
 
