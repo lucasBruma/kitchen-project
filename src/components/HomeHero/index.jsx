@@ -7,7 +7,8 @@ export default function HomeHero() {
       <div className="relative flex h-[980px] flex-col items-start justify-center gap-8 px-6 text-white md:px-32 xl:px-56">
         <div className="absolute inset-0 z-20 h-full">
           <div className="absolute inset-0 z-30 h-full bg-black opacity-60" />
-          <Image src="/homeKitchen.jpg" width={1000} height={1000} alt="Kitchen" className="h-full w-full" />
+          {/* <Image src="/homeKitchen.jpg" width={1000} height={1000} alt="Kitchen" className="h-full w-full" /> */}
+          <img src="/homeKitchen.jpg" width={1000} height={1000} alt="Kitchen" className="h-full w-full" />
         </div>
         <div className="relative z-30 flex w-full flex-col gap-4">
           <Typography
@@ -22,8 +23,11 @@ export default function HomeHero() {
           </Typography>
         </div>
         <div className="relative z-20 flex flex-row gap-3">
-          <Image src="/houzz2020.jpeg" width={100} height={100} alt="Houzz 2020" />
-          <Image src="/houzz2021.jpeg" width={100} height={100} alt="Houzz 2021" />
+          {/* <Image src="/houzz2020.jpeg" width={100} height={100} alt="Houzz 2020" />
+          <Image src="/houzz2021.jpeg" width={100} height={100} alt="Houzz 2021" /> */}
+          <img src="/houzz2020.jpeg" width={100} height={100} alt="Houzz 2020"/>
+          <img src="/houzz2021.jpeg" width={100} height={100} alt="Houzz 2020" />
+
         </div>
       </div>
     </main>
