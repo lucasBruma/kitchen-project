@@ -44,7 +44,7 @@ export const About = () => {
   return (
     <div className="bg-background-main relative flex w-full flex-col items-center justify-center">
       <HeroBackground className="flex h-[584px] w-full justify-center md:h-[776px]" />
-      <div className="xs:h-[2000px] relative flex h-[2300px] w-full max-w-[1500px] items-center justify-center sm:h-[1600px] md:h-[1400px] lg:h-[3500px]">
+      <div className="xs:h-[2000px] relative flex h-[5800px] w-full max-w-[1500px] items-center justify-center sm:h-[4600px] md:h-[4400px] lg:h-[3400px] xl:h-[3000px]">
         <div className="absolute top-[-450px] mx-auto flex w-full flex-col items-center justify-center px-[20px] md:top-[-575px] md:px-[60px] lg:px-[70px]">
           <div className="flex flex-col items-start gap-4 md:gap-10">
             <Typography
@@ -56,7 +56,7 @@ export const About = () => {
             </Typography>
             <div className="min-h-[400px] overflow-hidden xl:min-h-[600px]">
               <DownSm>
-                <img src="/about.jpeg" alt="About me image" />
+                <img src="/owner-explore.jpg" alt="About me image - small" />
               </DownSm>
               <SmAndUp>
                 <img src="/about.jpeg" alt="About me image" />
@@ -79,6 +79,74 @@ export const About = () => {
                 <AboutText>{text6}</AboutText>
                 <AboutText>{text7}</AboutText>
               </div>
+            </div>
+          </div>
+          <div className="flex w-[90%] flex-col gap-4 text-black sm:gap-8">
+            <Typography variant="h2" component="h2">
+              How We Chose Our Wholesalers
+            </Typography>
+            <div className="flex flex-col gap-4 sm:flex-row">
+              <div className="flex w-full flex-col items-start gap-4 sm:w-1/2">
+                <AboutText className="!font-bold">{text1}</AboutText>
+                <AboutText>
+                  It started with my own parents as the model customer. I looked for brands I knew I would trust someone
+                  installing in their home and I made personal connections at the top of every single company. Those
+                  that responded to me as a customer, in the way I want my customers treated, made my research list.
+                </AboutText>
+                <AboutText>
+                  While it has never been my job to do install work, I’ve always believed that knowing the product is
+                  the absolute best way to meet your customers’ needs. So, I studied their brands and asked tough
+                  questions about quality, supply, and delivery. I dug into their warranties, and customer reviews. When
+                  I had completed my exploration, I had a shortlist. I wanted suppliers that took our partnership
+                  personally, so I met with their CEOs, presidents, and regional sales directors.
+                </AboutText>
+                <AboutText>Thirty wholesalers were narrowed down to eight.</AboutText>
+                <AboutText>
+                  I wanted people who went above and beyond to get my business, like the company that put up my parents,
+                  their dog, and myself in a hotel, to make a visit to their headquarters possible. I knew that people
+                  like that would take my customers as seriously as they were taking me, and I think the results will
+                  speak for themselves.
+                </AboutText>
+                <AboutText>
+                  From there I needed contractors, installers I knew I could trust. So, at each of these wholesalers, I
+                  asked for the contacts of the absolute best they had, and I took them through the same kind of
+                  process. I even went so far as to engage an old high school sports rival as my general contractor,
+                  because if you can’t trust a guy you used to meet at the old McDonalds in high school, who can you
+                  trust? I needed to know that every team member would be an extension of my own passion to keep the
+                  customer and our relationship front and center at all times and no personal grudge would stand in the
+                  way.
+                </AboutText>
+              </div>
+              <div className="flex w-full flex-col justify-start gap-4 sm:w-1/2">
+                <AboutText>
+                  If you’d prefer, you can come to our office at 1660 International Dr. Suite 600, McLean, VA 22102
+                  between 8:30 a.m.-5:30 p.m. M-F and 9 a.m.-4 p.m on Saturday for a free consultation by appointment.
+                </AboutText>
+                <AboutText>
+                  But, if it’s more convenient, I’ll be making house calls myself to measure and consult on-site for any
+                  cabinet, tile, granite, or quartz kitchen remodel, kitchen renovation project you need help with. I’ve
+                  done it in thousands of homes across the country and some of those customers are still my friends to
+                  this day. Our proprietary digital design system allows us to bring the most accurate available
+                  measurements to our installers before they even set foot in your home to ensure the products we
+                  deliver will be right the first time.
+                </AboutText>
+                <AboutText>
+                  We’re laying out this site to give you as much information as possible to explore before you make your
+                  decision. We’re including information about each of our wholesalers and over the next couple of
+                  months, you’ll be able to explore a page for each one. We want you to do your due diligence because
+                  we’re convinced that you’ll reach the same conclusion we have, that Explore Kitchens, is the single
+                  best value in product quality, service, and installation in our region.
+                </AboutText>
+                <AboutText>
+                  Explore first, figure out what you want. We’ve created a playground of great ideas and products, and
+                  we promise, you won’t have to wade through any crap to get to the good stuff.
+                </AboutText>
+              </div>
+            </div>
+            <div className="flex w-full flex-col justify-start gap-1 sm:w-1/2">
+              <AboutText>Jason Kidwell</AboutText>
+              <AboutText>Founder and CEO</AboutText>
+              <AboutText>Explore Kitchens</AboutText>
             </div>
           </div>
         </div>
