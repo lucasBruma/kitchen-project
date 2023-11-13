@@ -19,15 +19,14 @@ export default function HomeHero() {
             Explore can make <span className="block italic text-secondary-light">your dream kitchen</span>
           </Typography>
           <Typography variant="h5" sx={{ fontFamily: "inherit" }} className="">
-            Kitchen Remodeling in McLean, VA
+            Kitchen & Home Remodeling in McLean, VA
           </Typography>
         </div>
         <div className="relative z-20 flex flex-row gap-3">
           {/* <Image src="/houzz2020.jpeg" width={100} height={100} alt="Houzz 2020" />
           <Image src="/houzz2021.jpeg" width={100} height={100} alt="Houzz 2021" /> */}
-          <img src="/houzz2020.jpeg" width={100} height={100} alt="Houzz 2020"/>
+          <img src="/houzz2020.jpeg" width={100} height={100} alt="Houzz 2020" />
           <img src="/houzz2021.jpeg" width={100} height={100} alt="Houzz 2020" />
-
         </div>
       </div>
     </main>
