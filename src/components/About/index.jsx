@@ -44,14 +44,10 @@ export const About = () => {
   return (
     <div className="bg-background-main relative flex w-full flex-col items-center justify-center">
       <HeroBackground className="flex h-[584px] w-full justify-center md:h-[776px]" />
-      <div className="xs:h-[2000px] relative flex h-[5800px] w-full max-w-[1500px] items-center justify-center sm:h-[4600px] md:h-[4400px] lg:h-[3400px] xl:h-[3000px]">
-        <div className="absolute top-[-450px] mx-auto flex w-full flex-col items-center justify-center px-[20px] md:top-[-575px] md:px-[60px] lg:px-[70px]">
+      <div className="relative flex  w-full max-w-[1500px] items-center justify-center">
+        <div className="relative top-[-300px] mx-auto flex w-full flex-col items-center justify-center px-[20px] md:top-[-525px] md:px-[60px] lg:px-[70px]">
           <div className="flex flex-col items-start gap-4 md:gap-10">
-            <Typography
-              variant="aboutTitle"
-              component="h1"
-              className="text-left text-white sm:!my-4 md:!my-0 lg:!text-[56px]"
-            >
+            <Typography variant="h3" component="h1" className="text-left text-white sm:!my-4 md:!my-0 lg:!text-[56px]">
               About me
             </Typography>
             <div className="min-h-[400px] overflow-hidden xl:min-h-[600px]">
