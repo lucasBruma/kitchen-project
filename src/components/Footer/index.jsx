@@ -1,9 +1,7 @@
 "use client";
 import Link from "next/link";
 import React from "react";
-import { FaInstagram } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
+import { FaYoutube, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
 
 export function Footer() {
   return (
@@ -22,7 +20,9 @@ export function Footer() {
               {" "}
               <FaTwitter className="cursor-pointer text-2xl text-black  hover:text-blue-600" />{" "}
             </Link>
-            {/* <Link><FaLinkedin className="text-2xl cursor-pointer hover:text-blue-600"/> </Link> */}
+            <Link href="https://www.linkedin.com/company/explore-granite-quartz-llc/" target="blank">
+              <FaLinkedin className="cursor-pointer text-2xl text-black hover:text-blue-600" />{" "}
+            </Link>
             <Link href="https://www.youtube.com/channel/UCo69BjExN3Rbfsg7l-G9hlQ" target="blank">
               {" "}
               <FaYoutube className="cursor-pointer text-2xl text-black  hover:text-red-600" />
