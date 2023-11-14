@@ -18,31 +18,31 @@ export const services = [
     description:
       "Sometimes the perfect house is not perfect at first, but completing a significant renovation canmake all the difference. We use only the finest materials and have the skills to create beautifulfinished products. Find your dream home in the one you already own!",
     name: "Home Remodeling",
-    image: "/homeRemodeling.avif",
+    image: "/homeRemodeling.jpg",
   },
   {
     description:
       "At Explore Remodeling, we understand what it takes to make a kitchen spectacular. Ourdedicated team of general contractors and design professionals work one-on-one with eachclient, listening first to understand your needs best and providing expert advice and guidance to transform your dream kitchen into reality.",
     name: "Kitchen Remodeling",
-    image: "/kitchenRemodeling.avif",
+    image: "/kitchenRemodeling.jpg",
   },
   {
     description:
       "At Explore, we provide professional project management, making it possible for you to addsquare footage to your home in an aesthetically pleasing way and can even enhance your property value.",
     name: "Home Additions",
-    image: "/homeAdditions.avif",
+    image: "/homeAdditions.jpg",
   },
   {
     description:
       "When your property is perfect, but your home is not quite right, a teardown and rebuild is onesolution to consider. Explore walks you through the entire process, providing professional oversight and helping you to achieve your goals while saving time and money.",
     name: "Teardown and Rebuild",
-    image: "/teardownRebuild.avif",
+    image: "/teardownRebuild.jpg",
   },
   {
     description:
       "We will help you to design your bathroom, making it efficient, conducive to your lifestyle, and beautiful too.",
     name: "Bathroom Remodeling",
-    image: "/bathroomRemodeling.avif",
+    image: "/bathroomRemodeling.jpg",
   },
 ];
 

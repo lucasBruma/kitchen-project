@@ -26,7 +26,7 @@ export default function PaymentHome() {
           </Link>
         </div>{" "}
         <div>
-          <img src="/exploreCard.png" alt="explore card" />
+          <img src="/exploreCard.jpg" alt="explore card" />
         </div>
       </div>
     </Container>

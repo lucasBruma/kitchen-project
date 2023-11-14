@@ -14,7 +14,7 @@ export const ContactHome = () => {
           <Form />
         </div>
         <div className="flex flex-col gap-6 md:w-[42%]">
-          <img src="/vienna.webp" alt="Vienna business association" />
+          <img src="/vienna.jpg" alt="Vienna business association" />
           <div className="flex flex-col gap-6">
             <Typography variant="h4" component="h5">
               Remodeling Your Kitchen Begins With Picking the Perfect Cabinets and Countertops
