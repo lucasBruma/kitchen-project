@@ -37,7 +37,7 @@ export function Header() {
       <div className="flex w-full items-center justify-center gap-6 bg-primary-light py-2">
         <Link href="tel:703-962-7510" className="flex items-center gap-3">
           <BsFillTelephoneInboundFill className="text-base text-white" />
-          <p className="text-base">(703) 962 - 7510</p>
+          <p className="text-base !text-white">(703) 962 - 7510</p>
         </Link>
       </div>
       <div className="w-full">
@@ -113,7 +113,7 @@ export function Header() {
               >
                 {linksNav.map((link, index) => (
                   <Link href={link.href} key={index}>
-                    <button className="text-base">{link.label}</button>
+                    <button className="text-base !text-white">{link.label}</button>
                   </Link>
                 ))}
               </motion.div>

@@ -14,16 +14,16 @@ export function Footer() {
             Explore<span className="text-red-main">Kitchens</span>
           </p>
           <div className="flex gap-6 pb-5">
-            <Link href="https://www.instagram.com/explorekitchens/">
+            <Link href="https://www.instagram.com/explorekitchens/" target="blank">
               {" "}
               <FaInstagram className="cursor-pointer text-2xl text-black  hover:text-yellow-600" />
             </Link>
-            <Link href="https://twitter.com/i/flow/login?redirect_after_login=%2Fexplorekitchens">
+            <Link href="https://twitter.com/i/flow/login?redirect_after_login=%2Fexplorekitchens" target="blank">
               {" "}
               <FaTwitter className="cursor-pointer text-2xl text-black  hover:text-blue-600" />{" "}
             </Link>
             {/* <Link><FaLinkedin className="text-2xl cursor-pointer hover:text-blue-600"/> </Link> */}
-            <Link href="https://www.youtube.com/channel/UCo69BjExN3Rbfsg7l-G9hlQ">
+            <Link href="https://www.youtube.com/channel/UCo69BjExN3Rbfsg7l-G9hlQ" target="blank">
               {" "}
               <FaYoutube className="cursor-pointer text-2xl text-black  hover:text-red-600" />
             </Link>
@@ -32,22 +32,22 @@ export function Footer() {
         <ul>
           <p className="pb-4 text-2xl font-bold text-black">Services</p>
           <Link href="/cabinetRefacing">
-          <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">
-            Cabinet Refacing
-          </li>
+            <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">
+              Cabinet Refacing
+            </li>
           </Link>
         </ul>
         <ul>
           <p className="pb-4 text-2xl font-bold text-black">Gallery</p>
           <Link href="/portfolio">
-          <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">Portfolio</li>
+            <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">Portfolio</li>
           </Link>
         </ul>
 
         <ul>
           <p className="pb-4 text-2xl font-bold text-black">Support</p>
           <Link href="/contact">
-          <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">Contact</li>
+            <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">Contact</li>
           </Link>
         </ul>
       </div>
