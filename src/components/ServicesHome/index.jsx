@@ -38,12 +38,6 @@ export const services = [
     name: "Teardown and Rebuild",
     image: "/teardownRebuild.jpg",
   },
-  {
-    description:
-      "We will help you to design your bathroom, making it efficient, conducive to your lifestyle, and beautiful too.",
-    name: "Bathroom Remodeling",
-    image: "/bathroomRemodeling.jpg",
-  },
 ];
 
 const Container = styled.div`

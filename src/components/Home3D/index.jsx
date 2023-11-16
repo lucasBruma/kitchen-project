@@ -7,15 +7,6 @@ export default function Home3D() {
         <div className="absolute inset-0 z-20 h-full">
           <div className="absolute inset-0 z-30 h-full bg-black" />
         </div>
-        <div className="relative z-30 flex w-full flex-col gap-4">
-          <div className="relative z-20 w-fit rounded-xl bg-red-main px-10 py-6 font-medium shadow-md shadow-black duration-200 ease-in hover:bg-primary-main">
-            <h2 className="pb-3 text-center text-2xl">FREE 3D KITCHEN DESIGN</h2>
-            <p>
-              Kitchen Remodeling in McLean Virginia begins with a new design. Our Design Specialist will use the
-              pictures and measurements you send us of your existing kitchen to create your Free 3D design.
-            </p>
-          </div>
-        </div>{" "}
         {/* className="relative flex h-[980px] flex-col items-start justify-center gap-8 px-6 text-white md:px-32 xl:px-56" */}
         <div className="relative z-20 flex w-full flex-wrap justify-start gap-3 lg:flex-row xl:flex-nowrap xl:justify-between">
           <div>

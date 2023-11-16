@@ -30,11 +30,8 @@ export function Footer() {
           </div>
         </ul>
         <ul>
-          <p className="pb-4 text-2xl font-bold text-black">Services</p>
-          <Link href="/cabinetRefacing">
-            <li className="text-md cursor-pointer pb-2 font-semibold text-gray-500 hover:text-red-600">
-              Cabinet Refacing
-            </li>
+          <Link href="/cabinetRefacing" className="cursor-pointer">
+            <p className="pb-4 text-2xl font-bold text-black">Cabinet Refacing</p>
           </Link>
         </ul>
         <ul>
