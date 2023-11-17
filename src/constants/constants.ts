@@ -35,7 +35,8 @@ export const linksNav = [
     href: "/about",
   },
   {
-    label: "Contact",
-    href: "/contact",
+    label: "Our Process",
+    href: "/ourProcess",
   },
+  
 ];
