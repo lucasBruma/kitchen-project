@@ -31,7 +31,7 @@ export const linksNav = [
     href: "/portfolio",
   },
   {
-    label: "About us",
+    label: "About me",
     href: "/about",
   },
   {
