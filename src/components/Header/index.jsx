@@ -59,6 +59,7 @@ export function Header() {
                   key={index}
                   href={link.href}
                   className="ease-in-ou relative cursor-pointer px-3 py-2 duration-300 hover:text-red-main"
+                  target={link.label === "Financing" && "_blank"}
                 >
                   {link.label}
                 </Link>
