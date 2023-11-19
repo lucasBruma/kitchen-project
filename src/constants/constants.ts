@@ -27,6 +27,10 @@ export const linksNav = [
     href: "/cabinetRefacing",
   },
   {
+    label: "Financing",
+    href: "https://www.enhancify.com/explore-kitchens-financing-offers",
+  },
+  {
     label: "Portfolio",
     href: "/portfolio",
   },

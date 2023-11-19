@@ -12,7 +12,10 @@ export function Footer() {
             Explore<span className="text-red-main">Kitchens</span>
           </p>
           <div className="flex gap-6 pb-5">
-            <Link href="https://www.instagram.com/explorekitchens/" target="blank">
+            <Link
+              href="https://instagram.com/exploreremodeling?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"
+              target="blank"
+            >
               {" "}
               <FaInstagram className="cursor-pointer text-2xl text-black  hover:text-yellow-600" />
             </Link>
