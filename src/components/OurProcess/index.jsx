@@ -2,6 +2,9 @@
 import { Hero } from "@/components/Hero";
 import React from "react";
 import styled from "@emotion/styled";
+import { ProcessIntro } from "./ProcessIntro";
+import { Process } from "./Process";
+import { Process2 } from "./Process2";
 
 
 const Container = styled.div`
@@ -11,8 +14,12 @@ const Container = styled.div`
 export const OurProcess = () => {
   return (
     <main>
-      <Hero title="OUR PROCESS" />
-      
+      <Hero title="Our Process"/>
+      <Container>
+        <ProcessIntro />
+        <Process/>
+        <Process2/>
+       </Container>
     </main>
   );
 };
