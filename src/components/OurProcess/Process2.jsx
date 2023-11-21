@@ -23,11 +23,13 @@ const faqs = [
   },
   {
     question: "Construction",
-    answer: "During construction, we treat your home as if it was our own. We post job site rules that prohibit smoking and profanity. Most importantly, we select subcontractors who are experts. They understand the importance of minimizing their impact on your life and are respectful of the fact that you are allowing them into your home.",
+    answer:
+      "During construction, we treat your home as if it was our own. We post job site rules that prohibit smoking and profanity. Most importantly, we select subcontractors who are experts. They understand the importance of minimizing their impact on your life and are respectful of the fact that you are allowing them into your home.",
   },
   {
     question: "Final Inspections and Punch List",
-    answer: "When construction is complete, we will arrange all final inspections  with the county. After you have settled in, we will schedule a meeting to walk the project and generate a punch list  of any items that might need attention. The plan is typically relatively small and reflects our attention to detail, quality control, and management oversight. Final payment is due when the punch list is complete.",
+    answer:
+      "When construction is complete, we will arrange all final inspections  with the county. After you have settled in, we will schedule a meeting to walk the project and generate a punch list  of any items that might need attention. The plan is typically relatively small and reflects our attention to detail, quality control, and management oversight. Final payment is due when the punch list is complete.",
   },
   {
     question: "Systems Orientation",
@@ -36,7 +38,8 @@ const faqs = [
   },
   {
     question: "A full one-year warranty covers warranty",
-    answer: "Your Explore project. After many months of acclimating, nail pops and other items may need attention. We will come out near the end of the one year and repair any of these items. Of course, as any of our past clients will attest, Explore is just a phone call away to help with any issues that may arise in the future.",
+    answer:
+      "Your Explore project. After many months of acclimating, nail pops and other items may need attention. We will come out near the end of the one year and repair any of these items. Of course, as any of our past clients will attest, Explore is just a phone call away to help with any issues that may arise in the future.",
   },
 ];
 
@@ -50,7 +53,7 @@ export const Process2 = () => {
   return (
     <div className="flex h-auto w-full flex-col items-center gap-6 px-8 pb-16">
       <Typography variant="h2" component="h2" className="mb-8 text-center !text-3xl font-bold text-black lg:!text-5xl">
-      <h2 className="text-[2rem] text-red-main font-bold text-center ">EXPLORE CONSTRUCTION PROCESS</h2>
+        EXPLORE CONSTRUCTION PROCESS
       </Typography>
       {faqs.map((item) => {
         return (

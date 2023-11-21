@@ -23,11 +23,13 @@ const faqs = [
   },
   {
     question: "Trade Day",
-    answer: "To provide detailed and accurate pricing for your project, we set aside one day for all of our trade subcontractors to visit your house to review existing systems and site conditions. The electrician will evaluate your panel; the mechanical contractor will inspect your HVAC system, assessing expansion options, etc.After this “trade day,” each subcontractor will provide a detailed cost for his or her portion of the work. We will give multiple bids for some essential items such as windows to provide value options and ensure competitive numbers.",
+    answer:
+      "To provide detailed and accurate pricing for your project, we set aside one day for all of our trade subcontractors to visit your house to review existing systems and site conditions. The electrician will evaluate your panel; the mechanical contractor will inspect your HVAC system, assessing expansion options, etc.After this “trade day,” each subcontractor will provide a detailed cost for his or her portion of the work. We will give multiple bids for some essential items such as windows to provide value options and ensure competitive numbers.",
   },
   {
     question: "Pricing",
-    answer: "Our pricing is fully transparent and entirely open-book. This approach creates a team attitude and instills a trust level not typically found in the construction business. We assemble all the subcontractor's pricing and allowances into a spreadsheet that details and itemizes each cost. All pricing and associated costs are available for your review. Our wholesale contractor pricing is passed directly on to you. Once we have a confirmed project budget, we move forward with detailed construction documents.",
+    answer:
+      "Our pricing is fully transparent and entirely open-book. This approach creates a team attitude and instills a trust level not typically found in the construction business. We assemble all the subcontractor's pricing and allowances into a spreadsheet that details and itemizes each cost. All pricing and associated costs are available for your review. Our wholesale contractor pricing is passed directly on to you. Once we have a confirmed project budget, we move forward with detailed construction documents.",
   },
   {
     question: "Construction Documents and Final Selections",
@@ -36,7 +38,8 @@ const faqs = [
   },
   {
     question: "Final Pricing and Construction Contract",
-    answer: "After the Final drawings are complete, we will have our subcontractors review the plans one more time for any changes or items that may not have been included in the preliminary sketch. With this information, we will prepare the construction contract.",
+    answer:
+      "After the Final drawings are complete, we will have our subcontractors review the plans one more time for any changes or items that may not have been included in the preliminary sketch. With this information, we will prepare the construction contract.",
   },
 ];
 
@@ -50,7 +53,7 @@ export const Process = () => {
   return (
     <div className="flex h-auto w-full flex-col items-center gap-6 px-8 pb-16">
       <Typography variant="h2" component="h2" className="mb-8 text-center !text-3xl font-bold text-black lg:!text-5xl">
-      <h2 className="text-[2rem] text-red-main font-bold text-center ">ARCHITECTURAL DESIGN PROCESS</h2>
+        ARCHITECTURAL DESIGN PROCESS
       </Typography>
       {faqs.map((item) => {
         return (
